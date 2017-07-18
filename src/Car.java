@@ -53,7 +53,9 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Make:" + make + ", Model=" + model + ", Year=" + year + ", Price=" + price + "\n";
+        return make +  model + year + price + "\n";
+
 
     }
+
 }

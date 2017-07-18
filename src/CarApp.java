@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 public class CarApp {
     public static void main(String[] args) {
-        Scanner scnr = new Scanner (System.in);
+        Scanner scnr = new Scanner(System.in);
         int numOfCars;
 
         System.out.println("How many cars are you entering? ");
@@ -34,7 +34,9 @@ public class CarApp {
             carList.add(i, car);
 
         }
-            System.out.println(carList.toString());
+        System.out.printf("%10s | %10s | %10s | %10s\n", "Car Make", "Car Model", "Car Year", "Car Price");
+        System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n");
+        System.out.println(carList.toString());
         }
 
 
